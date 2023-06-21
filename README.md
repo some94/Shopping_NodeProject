@@ -31,7 +31,7 @@
 
 **실행 방법**
 
-node_modules와 package-lock.json 파일이 업로드 되어 있지 않으므로 **npm install express** 명령어로 express를 설치해주어야 합니다. 또한 package.json 파일을 참고하여 다른 npm 패키지를 설치하여야 합니다.<br/><br/>
+node_modules와 package-lock.json 파일이 업로드 되어 있지 않으므로 **npm install express** 명령어로 express를 설치해주어야 합니다. 또한 package.json 파일을 참고하여 다른 npm 패키지를 설치하여야 합니다.(**npm install** 명령어로 package.json에 지정된 npm 모듈들을 자동으로 설치할 수 있습니다.)<br/><br/>
 
 .env 파일이 존재하지 않으므로 생성해주어야 합니다. .env 파일에는 PORT 번호와 SECRET_KEY, KAKAO_ID가 들어있습니다. KAKAO_ID는 https://developers.kakao.com/에서 app을 생성하고 발급받은 REST API 키입니다. 소셜 로그인 기능을 사용하지 않으려면 passport 모듈과 관련된 파일을 모두 삭제하면 됩니다.<br/><br/>
 
